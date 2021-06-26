@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人网站</title>
+	<!-- 引入css -->
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- 引入自己的css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<!-- 导航栏 -->
+	<nav class="navbar">
+		<ul id="menu">
+			<li data-menuanchor="page1"><a href="#page1">首页</a></li>
+			<li data-menuanchor="page2"><a href="#page2">个人简介</a></li>
+			<li data-menuanchor="page3"><a href="#page3">专业技能</a></li>
+			<li data-menuanchor="page4"><a href="#page4">项目经验</a></li>
+		</ul>
+	</nav>
+	<div id="fullpage">
+		<div class="section section1">
+			<div class="tit">
+				<span class="tit1 animated bounceInDown yanshi1">前端工程师</span>
+				<span class="word animated bounceInRight yanshi2">简历</span>
+				<p class="motto animated bounceInUp">爱技术，爱生活</p>
+			</div>
+			<div class="corner1 corner">
+				<img src="images/page_1/1.png">
+			</div>
+			<div class="corner2 corner">
+				<img src="images/page_1/2.png">
+			</div>
+			<div class="corner3 corner">
+				<img src="images/page_1/3.png">
+			</div>
+			<div class="corner4 corner">
+				<img src="images/page_1/4.png">
+			</div>
+
+		</div>
+		<div class="section section2">
+			<div class="w">
+				<div class="fl pho">
+					<img src="images/pho.jpg">
+				</div>
+				<div class="fr txt">
+					<div class="data data1">
+						<img src="images/page_2/glass.png">
+						<h4>基本信息</h4>
+						<p>							
+							陈伟楠  男<br>
+							出生：2000.3.26<br>
+							居住：广东省揭阳市<br>
+						</p>
+					</div>
+					<div class="data data2">
+						<img src="images/page_2/hat.png">
+						<h4>毕业院校</h4>
+						<p>
+							广东理工学院
+						</p>
+					</div>
+					<div class="data data3">
+						<img src="images/page_2/book.png">
+						<h4>学历和专业</h4>
+						<p>
+							本科<br>
+							计算机科学与技术
+						</p>
+					</div>
+					<div class="data data4">
+						<span><img src="images/page_2/tel.png"></span>
+						<h4>联系方式</h4>
+						<p>
+							手机：13249271261<br>
+							邮箱：893351874@qq.com
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section3">
+			<div class="w">
+				<div class="skill skill1 fl">
+					<span><img src="images/page_3/tv8.png"></span>
+					<div class="skill1-txt">
+						<h4>PC端</h4>
+						<p>
+							理解W3C标准，熟悉使用HTML+CSS的编写，了解各种浏览器兼容性问题，会使用HTML5+CSS3的弹性盒、媒体查询和响应式布局等新特性。
+						</p>
+						<p>
+							学习完JavaScript的基础，了解JS面向对象原理，闭包以及原型结构，能用原生JS实现页面的动态交互，并了解使用JS的一些插件库和框架。
+						</p>
+						<p>									
+							掌握Ajax交互原理，能使用Ajax进行数据交互。
+						</p>
+					</div>
+				</div>
+				<div class="skill skill2 fl">
+					<span><img src="images/page_3/apple6.png"></span>
+					<div class="skill2-txt">
+						<h4>移动端</h4>
+						<p>
+							掌握移动端编程，会基于流式布局以及响应式布局开发移动端的页面。
+						</p>
+						<p>
+							熟练使用Bootstrap框架以及轻量级框架zepto的使用。
+						</p>
+					</div>
+				</div>
+				<div class="skill skill3 fr">
+					<span><img src="images/page_3/baterry10.png"></span>
+					<div class="skill3-txt">
+						<h4>其他</h4>
+						<p>
+							会使用photoshop、FW等工具实现切图等操作。
+						</p>
+						<p>
+							会使用流程工具和构建打包工具：webpack、git 了解操作包管理工具npm。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section4">
+			<div class="w">
+				<div class="slide">
+					<a class="project project1" href="#">
+						<img src="images/page_4/wangye.png">
+						<h3>电商网页</h3>
+					</a>	
+				</div>
+				<div class="slide">
+					<a class="project" href="#">
+						<img src="images/page_4/bird.png">
+						<h3>Flappy bird</h3>
+					</a>
+				</div>
+				<div class="slide">
+					<a class="project" href="#">
+						<img src="images/page_4/snake.png">
+						<h3>贪吃蛇</h3>
+					</a>
+				</div>
+				<div class="slide">
+					<a class="project" href="#">
+						<img src="images/page_4/fry.png">
+						<h3>飞机大战</h3>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div> 
+		<!-- 引入对应的js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/fullpage.js"></script>
+	<script src="js/mypage.js"></script>
+</body>
+</html>
